@@ -214,6 +214,7 @@ a{
     background-color: #FFFFFF;
     flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .team .team-member .member .member-info{
     padding: 32px 0;
@@ -236,6 +237,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team .team-member .member .member-info .social-media .social-media-item .icon-media:hover{
     background-color: #404bbf;
@@ -360,6 +362,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer .social-medias .social-medias-item .social-media-link:hover{
     background-color: #31d0aa;
